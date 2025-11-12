@@ -33,6 +33,4 @@ if __name__ == '__main__':
     user_input = get_user_input()
     data = get_data()
     save_to_db(data)
-    send_email('admin@example.com', 'User Input', user_input)
-# made changes
-#     
+    send_email('admin@example.com', 'User Input', user_input)   
